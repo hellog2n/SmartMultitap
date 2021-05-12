@@ -22,7 +22,7 @@ def func2():
 	seri.write(bytes(str.encode()))
 
 # 파이어베이스 주소
-firebase = firebase.FirebaseApplication("https://rasbebe-1205.firebaseio.com/", None)
+firebase = firebase.FirebaseApplication(''' 비공개 ''', None)
 resultA = firebase.get('/multitap', 'switch_A')
 resultB = firebase.get('/multitap', 'switch_B')
 
